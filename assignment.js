@@ -1,4 +1,4 @@
-
+//code link: https://github.com/rubelahme/assignment-js
 
 
 
@@ -69,3 +69,6 @@ function megaFriend(){
 }
 var totalBigFriendName =megaFriend();
 console.log(totalBigFriendName);
+
+
+
