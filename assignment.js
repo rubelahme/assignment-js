@@ -7,21 +7,21 @@ function kilometerToMeter(value) {
     var meter = value *1000;
     return meter;
 }
-var totalResult =kilometerToMeter(5);
+var totalResult =kilometerToMeter(3);
 console.log(totalResult);
 
 
 
 
 // two*************************
-function budgetCalculator(gori,mobail,laptop) {
-    var gori=(gori *50);
+function budgetCalculator(watch,mobail,laptop) {
+    var watch=(watch *50);
     var mobail=(mobail *100);
     var laptop=(laptop *200);
-    var totalCost = gori + mobail + laptop;
+    var totalCost = watch + mobail + laptop;
     return totalCost;
 }
-var totalmoney =budgetCalculator(1,1,2);
+var totalmoney =budgetCalculator(3,3,3);
 console.log(totalmoney);
 
 
@@ -47,7 +47,7 @@ function hotelCost(totalDay){
     }
     return totalCost;
 } 
-var totalRastHotelDay =hotelCost(30);
+var totalRastHotelDay =hotelCost(15);
 console.log(totalRastHotelDay);
 
 
@@ -56,7 +56,7 @@ console.log(totalRastHotelDay);
 
 // four*******************************************
 function megaFriend(){
-    var totalName =['mamun','topu','monirAhmed','rubel'];
+    var totalName =['mamun','topu','monirAhmed','mdrubelahmed'];
     var biggName = 0;
     var longName;
     for (var i = 0; i <totalName.length; i++) {
